@@ -51,7 +51,7 @@ console.log('Question 6:', likePizza)
 // 7. Show us an example of a switch statement being used
 for (var x = 1; x <= 20; x++) {
   switch (true) {
-    case x % 5 === 0 && x % 3 == 0:
+    case x % 5 === 0 && x % 3 === 0:
       console.log(x, 'FizzBuzz');
       break;
     case x % 5 === 0:
